@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Family Task Manager</title>
+    <link rel="stylesheet" href="task.css" />
+  </head>
+  <body>
+    <h1>Task</h1>
+    <form id="familyForm">
+      <label for="name">Member Name:</label>
+      <input type="text" id="name" required />
 
+      <label for="gender">Gender:</label>
+      <select id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="education">Education:</label>
+      <input type="text" id="education" />
+
+      <label for="task">Task:</label>
+      <input type="text" id="task" />
+
+      <label for="grocery">Grocery Items:</label>
+      <input type="text" id="grocery" />
+
+      <button type="submit">Add Member</button>
+    </form>
+    <div id="familyList"></div>
+    <div id="profileCard" style="display: none">
+      <h2>Member Details</h2>
+      <p id="profileName"></p>
+      <p id="profileGender"></p>
+      <p id="profileEducation"></p>
+      <p id="profileTask"></p>
+      <p id="profileGrocery"></p>
+      <button id="editMember">Edit</button>
+      <button id="deleteMember">Delete</button>
+    </div>
+
+    <script src="task.js"></script>
+  </body>
+</html>
