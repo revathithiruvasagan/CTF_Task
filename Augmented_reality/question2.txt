@@ -1,0 +1,8 @@
+2. Pillars of Object-Oriented Programming in AR App Development
+
+There are four pillars of Object-Oriented Programming :
+
+-Encapsulation: Packaging data and methods which act upon that data within a single unit. For example, you might encapsulate some properties and behaviors of an AR object within a class in an AR environment.
+-Abstraction: It deals with hiding those complex implementation details but exposing all such necessary features. For AR, that is, abstracting the underlying graphics rendering can come in handy and make it easy to develop.
+-Inheritance: Definition Creating new classes as derivations of existing classes. You can create specialized AR objects, such as 3D models, inheriting from a base ARObject class.
+-Polymorphism: Methods that can do different things based on the object calling them. Hence, one may wish to have different display methods for different types of AR objects in AR.

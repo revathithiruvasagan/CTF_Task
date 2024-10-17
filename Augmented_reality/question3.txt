@@ -1,0 +1,6 @@
+3. Structured vs. Unstructured Data
+
+Structured Data: Highly organized and easily searchable (e.g., databases, spreadsheets). Examples include relational databases with fixed schemas.
+Unstructured Data: Lacks a predefined format, making it more challenging to analyze (e.g., text documents, multimedia).
+
+3D Model Data: Generally falls under unstructured data, as it can be complex and varied in format (e.g., .obj, .fbx files) without a rigid schema.

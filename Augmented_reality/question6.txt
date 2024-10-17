@@ -1,0 +1,9 @@
+6. C++ Error
+
+The error in your C++ code arises because the constructor requires an integer parameter to initialize ARObject. However, in main(), you're trying to instantiate ARObject obj; without passing an argument.
+
+int main() {
+    ARObject obj(100); 
+    obj.display();
+    return 0;
+}

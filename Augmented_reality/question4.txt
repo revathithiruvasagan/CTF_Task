@@ -1,0 +1,7 @@
+4. Reducing APK Size of an AR App
+
+- Optimize Assets: Compress images and 3D models. Use lower-resolution textures where possible.
+- Remove Unused Resources: Audit and delete any unused assets or libraries.
+- Code Optimization: Minimize code by using ProGuard or R8 to remove unused code and reduce method count.
+- Use Asset Bundles: Load large assets dynamically instead of bundling them all into the APK.
+- Split APKs: Create different APKs for different device configurations (e.g., screen density).

@@ -1,0 +1,5 @@
+8. Segmentation Fault Explanation
+
+Uncommenting obj.~ARObject(); explicitly calls the destructor of obj. After this call, the memory allocated for size is freed, making obj unusable. Calling obj.displaySize(); afterward attempts to access this freed memory, leading to a segmentation fault.
+
+Solution: Avoid calling the destructor explicitly on stack-allocated objects. Let the object go out of scope, which will automatically call the destructor when it is no longer needed. Alternatively, if you need to manage the object's lifetime manually, use pointers or smart pointers (like std::unique_ptr or std::shared_ptr) to manage the memory safely.

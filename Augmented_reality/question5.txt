@@ -1,0 +1,5 @@
+5. Database Sharding
+
+Database Sharding: The practice of splitting a database into smaller, more manageable pieces (shards) to improve performance and scalability. Each shard contains a portion of the total data.
+
+When to Use in AR Applications: If your AR app has a large user base generating substantial data (e.g., user-generated content, location data), sharding can improve access times and manage load effectively.

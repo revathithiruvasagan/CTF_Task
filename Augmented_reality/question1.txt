@@ -1,1 +1,16 @@
+What Is AR?
 
+Almost any person with a smartphone can get access to augmented reality, making it more efficient than VR as a branding and gaming tool. AR morphs the mundane, physical world into a colorful, visual one by projecting virtual pictures and characters through a phone's camera or video viewer. Augmented reality is merely adding to the user's real-life experience
+
+What Is VR?
+
+Virtual reality takes these same components to another level by producing an entirely computer-generated simulation of an alternate world. These immersive simulations can create almost any visual or place imaginable for the player using special equipment such as computers, sensors, headsets, and gloves.
+
+What's the Difference Between the Two?
+
+The distinctions between VR and AR come down to the devices they require and the experience itself:
+
+    AR uses a real-world setting while VR is completely virtual
+    AR users can control their presence in the real world; VR users are controlled by the system
+    VR requires a headset device, but AR can be accessed with a smartphone
+    AR enhances both the virtual and real world while VR only enhances a fictional reality

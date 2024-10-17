@@ -1,0 +1,4 @@
+7. Garbage Collection in Java or C#
+
+- Java: Java uses an automatic garbage collector that identifies and discards objects that are no longer referenced in the program. This process includes marking unreachable objects and compacting memory to free up space.
+- C#: Similar to Java, C# has a garbage collector that periodically checks for and frees objects that are no longer accessible, optimizing memory management.
