@@ -1,0 +1,3 @@
+Flexbox :
+
+It is actually a CSS layout module that helps position elements in a row or columns within a container using flexibility. It allows the user to manage orientation, gap, and size adjustments of elements as it makes building responsive layouts easier.

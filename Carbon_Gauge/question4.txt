@@ -1,0 +1,3 @@
+Responsive web design :
+
+Responsive web design is the approach of development in which the layout varies based upon different types and sizes of screens. It can be said that the website would look good as well as function properly on any device, from large desktop monitors to small mobile phones. Media queries in CSS are commonly used for applying different styles based on the screen size.

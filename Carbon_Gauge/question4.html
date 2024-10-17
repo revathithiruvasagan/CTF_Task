@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+        padding: 10px;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        text-align: center;
+      }
+      .navbar {
+        flex-direction: row;
+      }
+      @media (max-width: 600px) {
+        .navbar {
+          flex-direction: column;
+        }
+
+        .navbar a {
+          padding: 10px;
+          border-top: 1px solid white;
+        }
+      }
+    </style>
+    <title>Responsive Webpage with Navbar</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#query">Queries</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </body>
+</html>

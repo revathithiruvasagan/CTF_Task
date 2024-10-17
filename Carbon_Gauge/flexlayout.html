@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shard Overview - Ecommerce Demo</title>
+    <link rel="stylesheet" href="flexlayout.css" />
+  </head>
+  <body>
+    <h1>Welcome to the Shard Overview</h1>
+
+    <div class="container">
+      <div class="box">
+        <h2>Overview</h2>
+        <p>
+          This section gives an overview of the sharding system. It helps to
+          scale databases by splitting data into smaller, more manageable pieces
+          called shards.
+        </p>
+      </div>
+
+      <div class="box">
+        <h2>Shard Details</h2>
+        <ul>
+          <li><a href="{{ url_for('shard1') }}">Shard 1</a></li>
+          <li><a href="{{ url_for('shard2') }}">Shard 2</a></li>
+          <li><a href="{{ url_for('shard3') }}">Shard 3</a></li>
+          <li><a href="{{ url_for('primary') }}">Primary Shard</a></li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h2>Ecommerce Demo</h2>
+        <p>
+          This is a demo application that showcases how an ecommerce platform
+          can be distributed using sharding techniques for improved performance
+          and scalability.
+        </p>
+        <p><a href="/ecommerce_demo">Learn More</a></p>
+      </div>
+    </div>
+  </body>
+</html>
